@@ -1,5 +1,12 @@
 # Starter
 
+This project demonstrates a simple way to define an Angular app as a customElement and embed it within another app using a defined tag name.  This relies on the @angular/elements package.  Basic steps required:
+
+$ npm run bundle
+$ cp dist/starter/elements.js /your/project/assets/elements/my-cool-element.js
+
+Within your project, inject a script tag on demand with "my-cool-element.js" as the source.  Any instance of "my-cool-element" will render your Angular app.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
 ## Development server
