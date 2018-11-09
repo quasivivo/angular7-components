@@ -1,6 +1,6 @@
 # Starter
 
-This project demonstrates a simple way to define an Angular app as a customElement and embed it within another app using a defined tag name.  This relies on the @angular/elements package.  Basic steps required:
+This project demonstrates a simple way to define an Angular app as a customElement and lazy load / embed it within another app using a custom tag name.  This relies on the @angular/elements package.  Basic steps required:
 
 $ npm run bundle
 
